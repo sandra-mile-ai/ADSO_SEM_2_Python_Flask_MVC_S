@@ -1,3 +1,17 @@
 # Build folder and log file
 build/
 build.log
+# Virtual environments
+venv/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Package directories
+/lib/
+/include/
+
+# IDE config files (opcional)
+.vs

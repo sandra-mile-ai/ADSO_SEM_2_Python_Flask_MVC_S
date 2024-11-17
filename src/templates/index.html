@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>facturAap</title>
+</head>
+<body>
+facturAap   
+</body>
+</html>
+
+    <header>
+        <h1>Software de Facturación</h1>
+        <nav>
+            <ul>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#vendedores">Vendedores</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#facturas">Facturas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="clientes">
+        <h2>Gestión de Clientes</h2>
+        <form>
+            <label for="nombre">Nombre del Cliente:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="direccion">Dirección:</label>
+            <textarea id="direccion" name="direccion" required></textarea>
+
+            <button type="submit">Guardar Cliente</button>
+        </form>
+    </section>
+
+    <section id="vendedores">
+        <h2>Gestión de Vendedores</h2>
+        <form>
+            <label for="nombre_vendedor">Nombre del Vendedor:</label>
+            <input type="text" id="nombre_vendedor" name="nombre_vendedor" required>
+
+            <label for="email_vendedor">Correo Electrónico:</label>
+            <input type="email" id="email_vendedor" name="email_vendedor" required>
+
+            <label for="telefono_vendedor">Teléfono:</label>
+            <input type="tel" id="telefono_vendedor" name="telefono_vendedor" required>
+
+            <label for="direccion_vendedor">Dirección:</label>
+            <textarea id="direccion_vendedor" name="direccion_vendedor" required></textarea>
+
+            <button type="submit">Guardar Vendedor</button>
+        </form>
+    </section>
+
+    <section id="productos">
+        <h2>Gestión de Productos</h2>
+        <form>
+            <label for="formulario _crear_producto">_crear_producto:</label>
+            <input type="text" id="crear_producto" name="crear_producto" required>
+
+            <label for="descripcion_producto">Descripción:</label>
+            <textarea id="descripcion_producto" name="descripcion_producto" required></textarea>
+
+            <label for="precio_producto">Precio:</label>
+            <input type="number" id="precio_producto" name="precio_producto" step="0.01" required>
+
+            <label for="stock_producto">Stock:</label>
+            <input type="number" id="stock_producto" name="stock_producto" required>
+
+            <button type="submit">Guardar Producto</button>
+        </form>
+    </section>
+
+    <section id="facturas">
+        <h2>Generar Factura</h2>
+        <form>
+            <label for="cliente_factura">Cliente:</label>
+            <select id="cliente_factura" name="cliente_factura" required>
+                <option value="">Selecciona un Cliente</option>
+
+            </select>
+
+            <label for="vendedor_factura">Vendedor:</label>
+            <select id="vendedor_factura" name="vendedor_factura" required>
+                <option value="">Selecciona un Vendedor</option>
+
+            </select>
+
+            <label for="producto_factura">Producto:</label>
+            <select id="producto_factura" name="producto_factura" required>
+                <option value="">Selecciona un Producto</option>
+            
+            </select>
+
+            <label for="cantidad_factura">Cantidad:</label>
+            <input type="number" id="cantidad_factura" name="cantidad_factura" required>
+
+            <button type="submit">Generar Factura</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Software de Facturación. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html
+
+
